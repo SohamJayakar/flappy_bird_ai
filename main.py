@@ -16,6 +16,9 @@ def main():
         quit_game()
 
         config.window.fill((0,0,0))
+
+        #Spawn Ground
+        config.ground.draw(config.window)
         clock.tick(60)
         pygame.display.flip()
 
